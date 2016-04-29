@@ -1,0 +1,27 @@
+{
+  "name": "protobot",
+  "version": "1.0.0",
+  "description": "A prototype bot app ready to be deployed to Openshift",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willywongi/prototype-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegrambot"
+  ],
+  "author": "willywongi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willywongi/prototype-bot/issues"
+  },
+  "homepage": "https://github.com/willywongi/prototype-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.21.1",
+    "promise": "^7.1.1"
+  }
+}
